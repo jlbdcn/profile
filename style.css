@@ -1,0 +1,112 @@
+
+/* RESPONSIVENESS*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+
+    margin: 30px 70px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+
+    margin: 30px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+
+    margin: 30px auto;
+  }
+  #my-pic {
+    width: 150px;
+  }
+}
+
+
+body {
+    background: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.text-center{
+  text-align: center;
+}
+
+.list-inline{
+  padding:0;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 40px;
+  text-decoration:none;
+
+}
+
+.list-inline li i{
+  padding: 20px;
+  font-size: 45px;
+}
+
+h1 {
+    color: #5DA9E9;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #5DA9E9;
+}
+
+.card {
+    background: white;
+    padding: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.film{
+  margin: auto;
+}
+
+.container{
+  width: 80vw;
+  margin: 30px auto;
+}
+
+#my-pic {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+div {
+  display: block;
+}
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
